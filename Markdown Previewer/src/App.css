@@ -1,7 +1,8 @@
+/* App.css */
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Arial, sans-serif;
   background: #b8e1fc;
   background: radial-gradient(
     circle farthest-corner at center center,
@@ -11,89 +12,49 @@ body {
 }
 .app-container {
   display: flex;
-  justify-content: space-around;
-  padding: 20px;
-  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   font-family: Arial, sans-serif;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1000px; /* Adjust maximum width as needed */
 }
 
 .editor-container,
 .preview-container {
-  width: 45%;
-  height: 100%;
-  border: 1px solid #ddd;
-  padding: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
-  overflow: auto;
+  width: 45%; /* Fixed width for both components */
+  height: 400px; /* Fixed height for both components */
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Enable vertical scrolling if content overflows */
 }
 
-#editor {
+textarea {
   width: 100%;
   height: 100%;
-  border: none;
-  resize: none;
-  font-size: 16px;
   padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+  font-size: 16px;
+  box-sizing: border-box; /* Include padding in height calculation */
 }
 
 #preview {
-  font-size: 16px;
-  padding: 10px;
-}
-
-@media screen and (max-width: 768px) {
-  .app-container {
-    flex-direction: column;
-  }
-
-  .editor-container,
-  .preview-container {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .preview-container {
-    margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .editor-container,
-  .preview-container {
-    padding: 5px;
-  }
-
-  #editor,
-  #preview {
-    font-size: 14px;
-  }
-
-  .preview-container {
-    margin-top: 20px;
-  }
-
-  .editor-container {
-    margin-bottom: 20px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .editor-container,
-  .preview-container {
-    padding: 5px;
-  }
-
-  #editor,
-  #preview {
-    font-size: 12px;
-  }
-
-  .preview-container {
-    margin-top: 20px;
-  }
-
-  .editor-container {
-    margin-bottom: 20px;
-  }
+  max-height: 100%; /* Limit preview height to container height */
 }
