@@ -1,14 +1,15 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f2f2f2;
-  color: #333;
   line-height: 1.5;
   margin: 0;
+  padding: 0;
 }
 
 .app {
   text-align: center;
-  background-color: #fff;
+  background: #1626ff;
+  background: linear-gradient(to top, #1626ff 0%, #ffffff 100%);
+
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 40px;
@@ -25,7 +26,7 @@ h1 {
 .controls {
   margin: 20px 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
