@@ -9,7 +9,7 @@ The Random Quote Machine is a web application that generates random quotes at th
 
 ## Live Demo
 
-You can view the live demo of the project [here](#).
+You can view the live demo of the project [here](https://codesandbox.io/p/sandbox/random-quote-generator-22nzhr).
 
 ## User Stories
 
@@ -45,7 +45,7 @@ The Markdown Previewer is a web application that allows users to type GitHub fla
 
 ## Live Demo
 
-You can view the live demo of the project [here](#).
+You can view the live demo of the project [here](https://codesandbox.io/p/sandbox/markdown-previewer-mp4t8v).
 
 ## User Stories
 
@@ -78,7 +78,7 @@ The Drum Machine is a web application that simulates a drum pad. Users can click
 
 ## Live Demo
 
-You can view the live demo of the project [here](#).
+You can view the live demo of the project [here](https://codesandbox.io/p/sandbox/drum-machine-h6zxmv).
 
 ## User Stories
 
@@ -112,7 +112,7 @@ The Calculator is a web application that allows users to perform basic arithmeti
 
 ## Live Demo
 
-You can view the live demo of the project [here](#).
+You can view the live demo of the project [here](https://codesandbox.io/p/sandbox/calculator-z9cjhx).
 
 ## User Stories
 
@@ -155,7 +155,7 @@ The Pomodoro Clock is a web application that helps users manage their time using
 
 ## Live Demo
 
-You can view the live demo of the project [here](#).
+You can view the live demo of the project [here](https://codesandbox.io/p/sandbox/25-5-clock-pomodoro-timer-t2ndtf).
 
 ## User Stories
 
