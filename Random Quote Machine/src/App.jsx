@@ -13,9 +13,9 @@ const App = () => {
 
   // Function to fetch a random quote
   const fetchRandomQuote = async () => {
-    const response = await fetch("https://api.quotable.io/random");
+    const response = await fetch("https://dummyjson.com/quotes/random");
     const data = await response.json();
-    setQuote(data.content);
+    setQuote(data.quote);
     setAuthor(data.author);
     // Generate a random background color
     const randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
