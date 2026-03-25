@@ -353,10 +353,10 @@ front-end-development-libraries/
 
 ```bash
 # Clone this repository
-git clone https://github.com/your-username/front-end-development-libraries.git
+git clone https://github.com/NarendraKoya999/freeCodeCamp-Frontend-Library-Certification.git
 
 # Navigate to any project
-cd front-end-development-libraries/01-random-quote-machine
+cd freeCodeCamp-Frontend-Library-Certification/Javascript Calculator
 
 # Install dependencies
 npm install
